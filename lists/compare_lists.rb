@@ -67,4 +67,10 @@ end
 
 comp = Comparer.new(options[:lista], options[:listb])
 comp.report
+
+puts 'In A only'
 puts comp.a_only
+
+puts ''
+puts 'In B only'
+puts comp.b_only
